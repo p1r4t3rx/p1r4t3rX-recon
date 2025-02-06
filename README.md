@@ -1,39 +1,46 @@
-██████╗ ██╗██████╗  █████╗ ████████╗███████╗██████╗ ██╗  ██╗
-██╔══██╗██║██╔══██╗██╔══██╗╚══██╔══╝██╔════╝██╔══██╗██║  ██║
-██████╔╝██║██████╔╝███████║   ██║   █████╗  ██████╔╝███████║
-██╔═══╝ ██║██╔══██╗██╔══██║   ██║   ██╔══╝  ██╔═══╝ ██╔══██║
-██║     ██║██║  ██║██║  ██║   ██║   ███████╗██║     ██║  ██║
-╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝     ╚═╝  ╚═╝
-
-
-
-<h1 align="center">
-  🏴‍☠️ P1r4t3rX Recon 🚀  
-</h1>
+██████╗ ██╗██████╗  █████╗ ████████╗███████╗██████╗ ██╗  ██╗  
+██╔══██╗██║██╔══██╗██╔══██╗╚══██╔══╝██╔════╝██╔══██╗██║  ██║  
+██████╔╝██║██████╔╝███████║   ██║   █████╗  ██████╔╝███████║  
+██╔═══╝ ██║██╔══██╗██╔══██║   ██║   ██╔══╝  ██╔═══╝ ██╔══██║  
+██║     ██║██║  ██║██║  ██║   ██║   ███████╗██║     ██║  ██║  
+╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝     ╚═╝  ╚═╝  
 
 <p align="center">
-  <b>Automated Subdomain & URL Enumeration Tool</b>  
-  <br>
-  <img src="https://img.shields.io/github/stars/yourusername/p1r4t3rX-recon?style=for-the-badge">
-  <img src="https://img.shields.io/github/forks/yourusername/p1r4t3rX-recon?style=for-the-badge">
-  <img src="https://img.shields.io/github/issues/yourusername/p1r4t3rX-recon?style=for-the-badge">
-  <br>
-  <img src="https://img.shields.io/badge/Made%20with-%F0%9F%92%8E%20Bash-blue?style=for-the-badge">
+   <img src="logo.png" width="350" alt="p1r4t3rX-recon Logo">
 </p>
+
+# 🏴‍☠️ P1r4t3rX Recon 🚀  
+### **Automated Subdomain & URL Enumeration Tool**  
 
 ---
 
-## 🎯 Features  
-✅ **Automated Subdomain Discovery** (Subfinder, Assetfinder, Amass, Katana)  
-✅ **URL Extraction & Filtering** (Gau, Katana)  
-✅ **Status Code Categorization** (Httpx)  
+### 🎯 Features  
+✅ **Automated Subdomain Discovery** *(Subfinder, Assetfinder, Amass, Katana)*  
+✅ **URL Extraction & Filtering** *(Gau, Katana)*  
+✅ **Status Code Categorization** *(Httpx)*  
 ✅ **Multi-threaded Execution for Speed** 🚀  
 
 ---
 
-## 🚀 Installation & Usage  
+## ⚡ Installation & Usage  
+
 ```bash
 git clone https://github.com/yourusername/p1r4t3rX-recon.git  
 cd p1r4t3rX-recon  
 chmod +x p1r4t3rX-recon.sh  
-./p1r4t3rX-recon.sh
+./p1r4t3rX-recon.sh￼Enter
+
+
+📜 License
+
+📄 This tool is for ethical hacking & bug bounty purposes only.
+Use responsibly! ⚠️
+
+---
+
+### **🔥 Improvements in This Version**  
+1. **Added Spacing** - Now, it looks cleaner and easier to read.  
+2. **Centered Image Support** - If you upload a **logo.png**, it will appear at the top.  
+3. **Headers & Icons** - 🏴‍☠️🚀🎯 make it more **attractive**.  
+4. **Markdown Code Blocks** - The commands now look **professional &
+
