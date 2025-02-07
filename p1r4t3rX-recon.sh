@@ -1,7 +1,13 @@
+
 #!/bin/bash
+echo -e "\e[1;31]
+█▀█ ▄█ █▀█ █░█ ▀█▀ █▀█ ▀▄▀
+█▀▀ ░█ █▀▄ ▀▀█ ░█░ █▀▄ █░█\e[0m"
+echo -e "\e[1;33m🏴‍☠️ P1r4t3rX Recon - Automated Recon Tool 🚀\e[0m"
+
 
 # Read domain from user
-echo "Enter the domain:"
+echo "Enter the domain : "
 read domain
 
 # Set output directories
@@ -9,7 +15,8 @@ output_dir="$domain-output"
 mkdir -p "$output_dir/amass"
 mkdir -p "$output_dir/status_codes"
 
-# Step 1: Run all subdomain finders in parallel                                                                                     echo "[+] Running Subfinder, Assetfinder, & Katana..."
+# Step 1: Run all subdomain finders in parallel
+echo "[+] Running Subfinder, Assetfinder, & Katana..."
 subfinder -d "$domain" -o "$output_dir/subdomains.txt" -t 200 -recursive -all &
 assetfinder --subs-only "$domain" | anew "$output_dir/subdomains.txt" &
 katana -u "$domain" -jc -d 10 -o "$output_dir/katana_subdomains.txt" &
@@ -33,7 +40,8 @@ katana -u "$domain" -jc -d 10 -o "$output_dir/katana_urls.txt" &
 # Wait for URL gathering to finish
 wait
 
-# Step 5: Merge URLs                                                                                                                echo "[+] Merging & removing duplicate URLs..."
+# Step 5: Merge URLs
+echo "[+] Merging & removing duplicate URLs..."
 sort -u "$output_dir/urls.txt" "$output_dir/katana_urls.txt" -o "$output_dir/urls.txt"
 
 # Step 6: Run Httpx for status codes (Super Fast)
@@ -45,8 +53,5 @@ echo "[+] Categorizing URLs by status codes..."
 awk '{print > "'$output_dir'/status_codes/"$2".txt"}' "$output_dir/httpx_results.txt"
 
 echo "[+] Completed! Results saved in: $output_dir"
-
-
-
 
 
